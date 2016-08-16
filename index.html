@@ -33,29 +33,29 @@
 
 	<p> </p>
 	
-	 <form>
-	 
-	 <section class="loginform cf">
-
-	<form name="login" action="index_submit" method="get" accept-charset="utf-8"> <ul>
-    
-    	<li><label for="usermail">Email</label>
-    
-    	<input type="email" name="usermail" placeholder="yourname@email.com" required></li>
-    	
-    	<li><label for="password">Password</label>
-    
-    	<input type="password" name="password" placeholder="password" required></li> <li>
-    	
-    	<input type="submit" value="Login"></li>
+	<form action="action_page.php">
   	
-  	</ul>
-</form>
-</section>
+  	<fieldset>
+    
+    	<legend>Personal information:</legend>
+    
+    	First name:<br>
+    
+    	<input type="text" name="firstname" value="Mickey"><br>
+    
+    	Last name:<br>
+    
+    	<input type="text" name="lastname" value="Mouse"><br><br>
+    
+    	<input type="submit" value="Submit">
+  
+  	</fieldset>
+	
+	</form>
+	
+	</section>
 	 
-	 </form>
-
-<p>Note that the form itself is not visible.</p>
+<p>Note that the form itself is not visible. </p>
 
 <p>Also note that the default width of a text input field is 20 characters.</p>
 
